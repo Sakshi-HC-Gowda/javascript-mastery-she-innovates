@@ -1,44 +1,27 @@
-// This program demonstrates variables in JavaScript.
+// Variables in JavaScript
 
-// Storing my name
 const name = "Sakshi HC";
-
-// Storing my age
 const age = 20;
-
-// Storing my college name
 const college = "SMVITM";
-
-// Storing my branch
 const branch = "Computer Science and Engineering";
-
-// Storing my CGPA
-const cgpa = 9.0;
-
-// Storing my dream company
+const cgpa = 9.05;
 const dreamCompany = "Microsoft";
-
-// Storing placement status (true/false)
 const isPlaced = false;
 
-console.log("===== Student Information =====");
-
-// Printing all values
+console.log("===== Student Details =====");
 console.log("Name:", name);
 console.log("Age:", age);
 console.log("College:", college);
 console.log("Branch:", branch);
 console.log("CGPA:", cgpa);
 console.log("Dream Company:", dreamCompany);
-console.log("Placed:", isPlaced);
+console.log("Placement Status:", isPlaced);
 
-// Changing a let variable
 let city = "Bengaluru";
-console.log("Before change:", city);
+console.log("Before Change:", city);
 
 city = "Mysuru";
-console.log("After change:", city);
+console.log("After Change:", city);
 
-// Creating a const variable
 const country = "India";
 console.log("Country:", country);
