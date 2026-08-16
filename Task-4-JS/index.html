@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Profile Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+            <!-- Dark Mode Button -->
+    <button id="darkModeBtn" class="toggle-btn" type="button">
+        Dark Mode
+    </button>
+
+        <h1 id="title">Student Profile Dashboard</h1>
+
+        <p id="message">
+            Enter your details to create your profile.
+        </p>
+
+
+        <!-- Profile Form -->
+
+        <form id="profileForm">
+
+            <label for="name">Name</label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+            >
+
+            <small id="nameError"></small>
+
+
+            <label for="email">Email</label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+            >
+
+            <small id="emailError"></small>
+
+
+            <label for="branch">Branch</label>
+
+            <select id="branch">
+
+                <option value="">Select Branch</option>
+
+                <option value="Computer Science">
+                    Computer Science
+                </option>
+
+                <option value="Information Science">
+                    Information Science
+                </option>
+
+                <option value="Electronics">
+                    Electronics
+                </option>
+
+            </select>
+
+            <small id="branchError"></small>
+
+
+            <button type="submit">
+                Update Profile
+            </button>
+
+        </form>
+
+
+        <!-- Profile Card -->
+
+        <div id="profileCard" class="profile-card">
+
+            <h2>Profile</h2>
+
+            <p id="profileName">
+                Name: Not added
+            </p>
+
+            <p id="profileEmail">
+                Email: Not added
+            </p>
+
+            <p id="profileBranch">
+                Branch: Not added
+            </p>
+
+        </div>
+
+
+        <!-- Clear Button -->
+
+        <div class="buttons">
+
+            <button id="clearBtn" type="button">
+                Clear Profile
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
