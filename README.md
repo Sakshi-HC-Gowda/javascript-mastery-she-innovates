@@ -1,151 +1,376 @@
-# Task 1 — JavaScript Basics
+# She Innovates – Full Stack JavaScript Internship
 
-## 📌 Objective
+## JavaScript Tasks & Projects
 
-This task introduces the fundamentals of JavaScript by implementing small programs that exercise:
+This repository contains my work completed as part of the **She Innovates – Full Stack JavaScript Internship**.
+
+The tasks were completed progressively, starting with JavaScript fundamentals and moving towards DOM manipulation, asynchronous JavaScript, and a complete browser-based To-Do application.
+
+---
+
+## 📚 Tasks Completed
+
+| Task | Topic | Status |
+|------|-------|--------|
+| Task 1 | JavaScript Fundamentals | ✅ Completed |
+| Task 2 | Conditional Statements, Loops & Problem Solving | ✅ Completed |
+| Task 3 | Functions, Arrays, Strings & Objects | ✅ Completed |
+| Task 4 | DOM Manipulation & Events | ✅ Completed |
+| Task 5 | Asynchronous JavaScript & Fetch API | ✅ Completed |
+| Task 6 | Complete To-Do List Application | ✅ Completed |
+
+---
+
+# Task 1 – JavaScript Basics
+
+## Objective
+
+Learn the fundamentals of JavaScript by practicing:
 
 - Variables
-- Data types
+- Data Types
 - Operators
-- Conditional statements (`if` / `else`)
-- Basic mathematical calculations
-
-## Overview
-
-The goal is to build confidence using JavaScript (ES6) in both Node.js and the browser console by solving common beginner problems.
-
-## Prerequisites
-
-- Node.js (for running scripts in the terminal) — optional if you prefer the browser console
-- A text editor (e.g., VS Code)
+- Input/Output
+- Conditional Statements
+- Mathematical calculations
+- Basic programming problems
 
 ## Concepts Covered
 
-### Variables
-Use `let` and `const` to declare variables.
+- `let` and `const`
+- Number, String and Boolean
+- Arithmetic operators
+- Assignment operators
+- Comparison operators
+- Logical operators
+- `if-else`
+- Mathematical calculations
 
-Example:
-```javascript
-let a = 10;
-const PI = 3.14159;
-```
+## Programs Implemented
 
-### Data Types
-Common types used in these exercises:
-
-- Number
-- String
-- Boolean (via conditional checks)
-
-Example:
-```javascript
-let age = 20;
-let name = "John";
-let isEligible = true;
-```
-
-### Operators
-- Arithmetic: `+`, `-`, `*`, `/`, `%`
-- Assignment: `=`, `+=`, `-=`
-- Comparison: `>`, `<`, `>=`, `<=`, `===`, `!==`
-- Logical: `&&`, `||`, `!`
-
-### Conditional Statements
-`if`, `else if`, `else` to implement decision logic.
-
-## 📝 Programs Implemented (with short descriptions)
-
-1. Swap Two Numbers — swap values using a temporary variable or destructuring
-2. Average of Three Numbers — compute mean
-3. Area of Rectangle — width × height
-4. Area of Circle — π × r²
-5. Perimeter of Rectangle — 2 × (width + height)
-6. Simple Interest Calculator — (P × R × T) / 100
+1. Swap Two Numbers
+2. Average of Three Numbers
+3. Area of Rectangle
+4. Area of Circle
+5. Perimeter of Rectangle
+6. Simple Interest Calculator
 7. Celsius to Fahrenheit Conversion
 8. Fahrenheit to Celsius Conversion
 9. Even or Odd Check
-10. Positive, Negative, or Zero Check
+10. Positive, Negative or Zero Check
 11. Largest of Two Numbers
 12. Largest of Three Numbers
 13. Leap Year Checker
-14. Voting Eligibility Checker — based on age
+14. Voting Eligibility Checker
 15. Divisibility by 5 and 11
 16. Smallest of Two Numbers
-17. Percentage Calculator — (marksObtained / totalMarks) × 100
-18. Grade Calculator — grade from percentage
-19. BMI Calculator — body mass index computation and category
-20. Electricity Bill Calculator — simple tiered example (placeholder)
+17. Percentage Calculator
+18. Grade Calculator
+19. BMI Calculator
+20. Electricity Bill Calculator
 
-Each program is implemented as a small, focused function or script in `task1.js` (or separated files if you prefer).
-
-## 💻 Technologies Used
+## Technologies
 
 - JavaScript (ES6)
-- Node.js (optional)
-- Browser Console (optional)
+- Node.js
+- Terminal / Browser Console
 
-## ▶️ How to Run
+---
 
-### Using Node.js
-1. Install Node.js.
-2. Save the program(s) in the `Task-1/` folder (e.g., `Task-1/task1.js`).
-3. Open a terminal and navigate to the project folder.
-4. Run:
-```bash
-node Task-1/task1.js
-```
-Output will appear in the terminal.
+# Task 2 – Conditional Statements and Loops
 
-### Using the Browser Console
-1. Open your browser (Chrome, Firefox, Edge).
-2. Open Developer Tools → Console.
-3. Paste functions or run the script (via an HTML file that includes your script) and inspect results in the console.
+## Objective
 
-## 📂 Recommended File Structure
+Strengthen JavaScript problem-solving skills by working with conditional statements and different types of loops.
 
-```
-Task-1/
-├── task1.js        # main script implementing the exercises
-└── README.md       # this file
-```
+## Concepts Covered
 
-If you split each exercise into its own file, consider:
-```
-Task-1/
-├── exercises/
-│   ├── swap-numbers.js
-│   ├── average-three.js
-│   └── ...
-├── task1.js        # optional runner that imports exercises
-└── README.md
-```
+- `if`
+- `if-else`
+- `else-if`
+- Nested conditions
+- `switch-case`
+- `for` loop
+- `while` loop
+- `do-while` loop
+- Nested loops
+- Pattern programs
+- Mathematical problem solving
 
-## Tips & Examples
+## Programs Practiced
 
-- Prefer small functions with clear inputs and outputs for each exercise to make testing easier.
-- Example: swap two numbers using destructuring
-```javascript
-let x = 5, y = 8;
-[x, y] = [y, x];
-console.log(x, y); // 8 5
-```
+The task includes problems involving:
 
-## 📖 Learning Outcomes
+- Conditional decision making
+- Switch-case based programs
+- Loop-based calculations
+- Factorial
+- Prime number checking
+- Fibonacci series
+- Number and character patterns
+- Other logical programming problems
 
-After completing this task you will be able to:
+## Technologies
 
-- Declare variables using `let` and `const`
-- Work with JavaScript data types
-- Use arithmetic, comparison, and logical operators
-- Implement decision-making using `if`/`else`
-- Solve basic real-world problems using JavaScript
+- JavaScript
+- Node.js
+- Terminal
 
-## ✅ Conclusion
+---
 
-This task builds a solid foundation in JavaScript fundamentals through hands-on practice. Completing these exercises prepares you for more advanced topics like functions, arrays, and object manipulation.
+# Task 3 – Functions, Arrays, Strings and Objects
 
-## Contributing / Next Steps
+## Objective
 
-- Consider separating each exercise into its own file and adding a simple test or example output.
-- Add comments to explain approach and edge cases for each exercise.
-- Optional: include automated tests (Jest or a simple test harness) for key functions.
+Learn how to organize JavaScript programs using reusable functions and work with commonly used JavaScript data structures and built-in methods.
+
+## Concepts Covered
+
+### Functions
+
+- Function declaration
+- Function parameters
+- Return values
+- Reusable functions
+
+### Arrays
+
+- Creating and accessing arrays
+- Iterating through arrays
+- Array methods
+- Searching and modifying arrays
+
+### Strings
+
+- String manipulation
+- String methods
+- Searching and transforming strings
+
+### Objects
+
+- Creating objects
+- Accessing object properties
+- Updating object values
+- Working with collections of objects
+
+### Built-in Methods
+
+Practiced commonly used JavaScript methods for processing arrays and strings.
+
+## Problem Solving
+
+At least 25 coding problems were practiced using functions, arrays, strings, objects and JavaScript built-in methods.
+
+## Technologies
+
+- JavaScript (ES6)
+- Node.js
+- Terminal
+
+---
+
+# Task 4 – DOM Manipulation and Events
+
+## Objective
+
+Understand how JavaScript interacts with HTML and CSS through the **Document Object Model (DOM)**.
+
+A browser-based **Student Profile Dashboard** was developed to practice dynamic webpage interaction.
+
+## Features Implemented
+
+- Selecting HTML elements using JavaScript
+- Updating webpage content dynamically
+- Handling user events
+- Form validation
+- Updating profile information
+- Dynamic DOM manipulation
+- CSS class manipulation
+- Dark mode
+- Clear/reset functionality
+
+## Concepts Covered
+
+- `getElementById()`
+- `textContent`
+- `addEventListener()`
+- `preventDefault()`
+- Form events
+- Input events
+- `classList.toggle()`
+- Client-side validation
+- Dynamic HTML updates
+
+## Technologies
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+---
+
+# Task 5 – Asynchronous JavaScript
+
+## Objective
+
+Learn asynchronous JavaScript and understand how web applications retrieve and process data from external sources.
+
+## Concepts Covered
+
+- Callbacks
+- Promises
+- `async`
+- `await`
+- Fetch API
+- JSON data
+- Error handling
+- Asynchronous data retrieval
+- Dynamic rendering of retrieved data
+
+## Project
+
+A simple browser application was created to retrieve data from a public API and display the information dynamically.
+
+## Implementation
+
+The application demonstrates the flow:
+
+```text
+User / Page
+     ↓
+Fetch API
+     ↓
+HTTP Response
+     ↓
+JSON Data
+     ↓
+JavaScript Processing
+     ↓
+Dynamic DOM Rendering
+Error handling was implemented to handle unsuccessful requests and other API-related issues.
+
+Technologies
+HTML5
+CSS3
+JavaScript
+Fetch API
+Public API
+Task 6 – TaskFlow To-Do Application
+Objective
+
+Build a complete To-Do List application using HTML, CSS and JavaScript while applying CRUD operations, Local Storage, search functionality and responsive design.
+
+Project
+TaskFlow – Smart To-Do Manager
+
+TaskFlow is a browser-based To-Do application for creating and managing tasks.
+
+Features
+CRUD Operations
+Create tasks
+View tasks
+Edit tasks
+Delete tasks
+Mark tasks as completed
+Task Management
+Task title
+Description
+Priority
+Due date
+Task status
+Completion tracking
+Search and Filtering
+Search tasks
+Filter tasks by status
+Filter tasks by priority
+Sort tasks
+Local Storage
+
+Tasks are stored using browser localStorage, allowing them to remain available after refreshing the page.
+
+Dashboard
+
+The application dynamically displays:
+
+Total tasks
+Active tasks
+Completed tasks
+High-priority tasks
+Responsive Design
+
+The interface is designed to work across different screen sizes.
+
+Technologies
+HTML5
+CSS3
+Vanilla JavaScript
+Browser Local Storage
+🛠️ Overall Technologies
+
+Throughout Tasks 1–6, the following technologies and concepts were practiced:
+
+JavaScript ES6+
+HTML5
+CSS3
+Node.js
+DOM
+Browser APIs
+Fetch API
+JSON
+Local Storage
+Responsive Web Design
+📈 Learning Progression
+
+The tasks were completed progressively:
+
+Task 1
+JavaScript Fundamentals
+        ↓
+Task 2
+Conditions & Loops
+        ↓
+Task 3
+Functions, Arrays, Strings & Objects
+        ↓
+Task 4
+DOM Manipulation & Events
+        ↓
+Task 5
+Asynchronous JavaScript & Fetch API
+        ↓
+Task 6
+Complete JavaScript Web Application
+
+This progression helped me move from basic programming problems to building an interactive browser-based application using JavaScript.
+🎯 Key Learning Outcomes
+
+By completing Tasks 1–6, I gained practical experience in:
+
+Writing JavaScript programs using variables, data types and operators
+Applying conditional statements and loops to solve problems
+Creating reusable functions
+Working with arrays, strings and objects
+Using JavaScript built-in methods
+Manipulating the DOM dynamically
+Handling browser events
+Validating forms using JavaScript
+Working with asynchronous JavaScript
+Using Fetch API and JSON
+Performing CRUD operations
+Persisting data using Local Storage
+Implementing search, filtering and sorting
+Building responsive browser-based applications
+🚀 Final Task
+
+The next stage of the internship is to independently develop a complete JavaScript mini project, apply clean coding practices, document the project on GitHub, and present a live demonstration.
+
+The concepts learned in Tasks 1–6 will be applied in the final independent project.
+
+👩‍💻 Author
+
+Sakshi H C
+
+Computer Science and Engineering
+Shri Madhwa Vadiraja Institute of Technology and Management
+
+She Innovates – Full Stack JavaScript Internship
